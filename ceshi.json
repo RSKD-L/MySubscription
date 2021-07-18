@@ -441,7 +441,7 @@
         "time": "10 0 * * *",
         "job": {
           "type": "runjs",
-          "target": "https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_shop.js
+          "target": "https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_shop.js"
         }
     },    
     {
