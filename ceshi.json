@@ -77,47 +77,11 @@
         }
     },
     {
-        "name": "京喜财富岛 ",
-        "type": "cron",
-        "time": "5 8,13,19 * * *",
-        "job": {
-          "type": "runjs",
-          "target": "https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_cfd.js"
-        }
-    },
-    {
         "name": "摇京豆 ",
         "type": "cron","time": "5 0,23 * * *",
         "job": {
           "type": "runjs",
            "target": "https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_club_lottery.js"
-        }
-    },
-    {
-        "name": "crazyJoy任务 ",
-        "type": "cron",
-        "time": "10 9 * * *",
-         "job": {
-           "type": "runjs",
-           "target": "https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_crazy_joy.js"
-        }
-    },
-    {
-        "name": "监控crazyJoy分红 ",
-        "type": "cron",
-        "time": "10 12 * * *",
-        "job": {
-          "type": "runjs",
-          "target": "https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_crazy_joy_bonus.js"
-        }
-    },
-    {
-        "name": "crazyJoy挂机 ",
-        "type": "cron",
-        "time": "10 1,12 * * *",
-        "job": {
-          "type": "runjs",
-          "target": "https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_crazy_joy_coin.js"
         }
     },
     {
@@ -127,15 +91,6 @@
         "job": {
           "type": "runjs",
           "target": "https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_daily_egg.js"
-        }
-    },
-    {
-        "name": "每日抽奖",
-        "type": "cron",
-        "time": "13 1,22,23 * * *",
-        "job": {
-          "type": "runjs",
-          "target": "https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_daily_lottery.js"
         }
     },
     {
@@ -220,51 +175,6 @@
         }
     },
     {
-        "name": "京东宠汪汪 ",
-        "type": "cron",
-        "time": "15 0-23/2 * * *",
-        "job": {
-          "type": "runjs",
-          "target": "https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_joy.js"
-        }
-    },    
-    {
-        "name": "京东宠汪汪喂食 ",
-        "type": "cron",
-        "time": "15 0-23/1 * * *",
-        "job": {
-          "type": "runjs",
-          "target": "https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_joy_feedPets.js"
-        }
-    },
-    {
-        "name": "宠汪汪积分兑换奖品 ",
-        "type": "cron",
-        "time": "0 0-16/8 * * *",
-        "job": {
-          "type": "runjs",
-          "target": "https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_joy_reward.js"
-        }
-    },
-    {
-        "name": "宠汪汪邀请助力与赛跑助力 ",
-        "type": "cron",
-        "time": "15 10 * * *",
-        "job": {
-          "type": "runjs",
-          "target": "https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_joy_run.js"
-        }
-    },    
-    {
-        "name": "宠汪汪偷好友积分与狗粮",
-        "type": "cron",
-        "time": "10 0-21/3 * * *",
-        "job": {
-          "type": "runjs",
-          "target": "https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_joy_steal.js"
-        }
-    },
-    {
         "name": "跳跳乐瓜分京豆 ",
         "type": "cron",
         "time": "1 0,11,21 * * *",
@@ -282,15 +192,6 @@
           "target": "https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_jxlhb.js"
         }
     },   
-    {
-        "name": "惊喜牧场 ",
-        "type": "cron",
-        "time": "20 0-23/3 * * *",
-        "job": {
-          "type": "runjs",
-          "target": "https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_jxmc.js"
-        }
-    },
     {
         "name": "京喜农场 ",
         "type": "cron",
@@ -328,27 +229,9 @@
         }
     },
     {
-        "name": "幸运大转盘",
-        "type": "cron",
-        "time": "4 10 * * *",
-        "job": {
-          "type": "runjs",
-          "target": "https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_market_lottery.js"
-        }
-    },
-    {
-        "name": "新潮品牌狂欢 ",
-        "type": "cron",
-        "time": "4 10 * * *",
-        "job": {
-          "type": "runjs",
-          "target": "https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_mcxhd.js"
-        }
-    },
-    {
         "name": "5G超级盲盒",
         "type": "cron",
-        "time": "0 0",
+        "time": "0 0,1-23/3 * * *",
         "job": {
           "type": "runjs",
           "target": "https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_mohe.js"
@@ -381,15 +264,6 @@
           "target": "https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_necklace.js"
         }
     },
-    {
-        "name": "女装盲盒 ",
-        "type": "cron",
-        "time": "35 1,23 * * *",
-        "job": {
-          "type": "runjs",
-          "target": "https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_nzmh.js"
-        }
-    },    
     {
         "name": "京东金融养猪猪 ",
         "type": "cron",
@@ -479,25 +353,7 @@
           "type": "runjs",
           "target": "https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_speed_sign.js"
         }
-    },    
-    {
-        "name": "明星小店 ",
-        "type": "cron",
-        "time": "0 1,21 * * *",
-        "job": {
-          "type": "runjs",
-          "target": "https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_star_shop.js"
-        }
-    },    
-    {
-        "name": "东东超市 ",
-        "type": "cron",
-        "time": "11 * * * *",
-        "job": {
-          "type": "runjs",
-          "target": "https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_superMarket.js"
-        }
-    },    
+    },      
     {
         "name": "赚京豆 ",
         "type": "cron",
