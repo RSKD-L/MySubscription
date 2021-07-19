@@ -1,0 +1,24 @@
+{
+  "name": "京东其他",
+  "author": "White",
+  "desc": "该订阅适用于elecV2P,在node环境跑京东任务,并与V2p交互使用",
+  "date": "2021-07-18 20:11:16",
+  "list": [
+    {
+      "name": "天天优惠大乐透",
+      "type": "cron",
+      "time": "15 6 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/shufflewzc/faker2/main/jd_DrawEntrance.js"
+      }
+    },
+    {
+      "name": "京喜财富岛热气球挂机",
+      "type": "cron",
+      "time": "15 6 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/shufflewzc/faker2/main/jd_cfd_loop.js"
+      }
+    },
