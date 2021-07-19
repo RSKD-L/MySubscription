@@ -1,0 +1,80 @@
+{
+  "name": "我的V2p签到基础订阅库",
+  "author": "White",
+  "desc": "该订阅适用于elecV2P,在node环境跑京东任务,并与V2p交互使用",
+  "date": "2021-07-18 20:11:16",
+  "list": [
+    {
+      "name": "爱奇艺",
+      "type": "cron",
+      "time": "0 9 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js"
+      }
+    },
+    {
+      "name": "吾爱破解",
+      "type": "cron",
+      "time": "0 9 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js"
+      }
+    },
+    {
+      "name": "网易云音乐",
+      "type": "cron",
+      "time": "30 0 0 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js"
+      }
+    },
+    {
+      "name": "B站",
+      "type": "cron",
+      "time": "2 0 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js"
+      }
+    },
+    {
+      "name": "顺丰速运",
+      "type": "cron",
+      "time": "6 0 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.js"
+      }
+    },
+    {
+      "name": "美团",
+      "type": "cron",
+      "time": "7 0 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js"
+      }
+    },
+    {
+      "name": "美团外卖",
+      "type": "cron",
+      "time": "3 0 * * * xxx.js",
+      "job": {
+        "type": "runjs",
+        "target": "https://github.com/chavyleung/scripts/blob/master/wmmeituan/wmmeituan.js"
+      }
+    },
+    {
+      "name": "哈喽出行",
+      "type": "cron",
+      "time": "3 0 * * * xxx.js",
+      "job": {
+        "type": "runjs",
+        "target": "https://github.com/chavyleung/scripts/blob/master/hellobike/hellobike.js"
+      }
+    },
+  ]
+}
